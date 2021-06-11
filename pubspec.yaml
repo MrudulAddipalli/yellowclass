@@ -1,0 +1,32 @@
+name: yellowclass
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.1.1
+  # camera: ^0.5.8+7
+  qr_code_scanner: ^0.3.5
+  firebase_core: ^1.2.1
+  firebase_auth: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - videoplayback.mp4
+    - speaker_on.png
+    - speaker_mute.png
+    - hide_eye.png
+    - open_eye.png
+    - logo.png
