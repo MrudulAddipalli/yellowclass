@@ -9,7 +9,7 @@ class MainLogo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: (height == null) ? 120 : height,
-      width: (width == null) ? 120 : width,
+      width: (width == null) ? 250 : width,
       child: (imagepath == null || imagepath == "")
           ? Image(image: AssetImage('assets/logo.png'))
           : Image(image: AssetImage(imagepath!)),
